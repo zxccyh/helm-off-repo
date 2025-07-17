@@ -3,7 +3,7 @@ entries:
   nginxstd:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-17T12:33:20.045285848+09:00"
+    created: "2025-07-17T12:42:26.226681061+09:00"
     description: A Helm chart for Kubernetes
     digest: 0e1a77042f535e1b0e21d1574f0dfc919419b3bbe87c32efb60dc02169dfc149
     name: nginxstd
@@ -11,4 +11,25 @@ entries:
     urls:
     - nginxstd-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-17T12:33:20.044642138+09:00"
+  redis:
+  - apiVersion: v1
+    appVersion: 5.0.7
+    created: "2025-07-17T12:42:26.228219751+09:00"
+    deprecated: true
+    description: DEPRECATED Open source, advanced key-value store. It is often referred
+      to as a data structure server since keys can contain strings, hashes, lists,
+      sets and sorted sets.
+    digest: 1bd7372252aaead6d411e3286b16b7c2c8b6b402c409f0f815caf60bd2a857af
+    home: http://redis.io/
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    urls:
+    - redis-10.5.7.tgz
+    version: 10.5.7
+generated: "2025-07-17T12:42:26.226032904+09:00"
